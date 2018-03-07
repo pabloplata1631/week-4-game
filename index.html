@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Homework 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <!--Jumbro tron-->
+        <div class="jumbotron" style="background-color: rgb(48, 98, 206); color: black;">
+            <div class="container">
+                <h1 class="text-center">
+                    <strong>Crystal Collector Game</strong>
+                </h1>
+
+            </div>
+        </div>
+        <div class="row">
+            <!--Mian Content-->
+            <div class="col-lg-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 calss+ "panel  text-center">Instructions</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            <small></small>You will be given a randon number at the start of the game .There are four crystals below.
+                            By clicking on a crystal you will add a specifiv amount of points to your total score. You win
+                            the game by matching your total score to random number, you lose the game if your score goes
+                            above the random number. The value of each crystal is hidden from you until you click on it.
+                            Each time when the game starts, the game will change the values of each crystal.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    <!-- SCORES AND LOGOS--> 
+        <div class="row">
+            <!--Mian Content-->
+            <div class="col-lg-3">
+                <!-- Target Score-->
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 calss+ "panel  text-center">Target Score</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="text-center" id="targetScore">
+                           
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <!--USER SCORE-->
+
+            <!--Mian Content-->
+            <div class="col-lg-3">
+                <!-- YOURRR Score-->
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 calss+ "panel  text-center">Your Score</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="text-center" id="yourScore">
+                            
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <!--Crystals-->
+
+
+            <div class="col-lg-6">
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 calss+ "panel  text-center">Crystals</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <img src="https://cdn.bleacherreport.net/images/team_logos/100x100/golden_state_warriors.png" alt="mghj" id="yellow">
+                        <img src="https://rfathead-res.cloudinary.com/image/upload/h_120,w_120/logos/lgo_nba_dallas_mavericks.png" alt="mavs" id="blue">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/160px-Los_Angeles_Lakers_logo.svg.png"
+                            alt="lakers"id="mamba">
+                        <img src="https://gir.im/http://upload.wikimedia.org/wikipedia/en/thumb/0/0d/New_Orleans_Pelicans_logo.svg/130px-New_Orleans_Pelicans_logo.svg.png"
+                            alt="pelicans" id="red">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Counters Row-->
+        <div class="row">
+            <!--Win count-->
+            <div class="col-lg-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 calss+ "panel  text-center">Win Count</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="text-center" id="winCount"> 0
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+             <!--LOSS count-->
+        <div class="col-lg-6">
+  
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 calss+ "panel  text-center">Loss Count</h3>
+                </div>
+                <div class="panel-body">
+                    <h3 class="text-center" id="lossCount" >0
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Jquery-->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    <script src="assets/javascript/games.js"></script>
+</body>
+
+</html>
